@@ -61,13 +61,11 @@ function shootBtn() {
 
   //Finding the Winner of individual rounds and incrementing their score by 1
   if (player1Fire > player2Fire) {
-    document.getElementById("roundResult").innerHTML = "Player 1 Wins Round "+roundCounter;
     player1Score++;
 
   }
 
   if (player2Fire > player1Fire) {
-    document.getElementById("roundResult").innerHTML = "Player 2 Wins Round "+roundCounter;
     player2Score++;
 
   }
